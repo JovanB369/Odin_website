@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar*/
+
+.navbar-container{
+    height: 5.5rem;
+    width: 100%;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.logo{
+    display: flex;
+    margin-left: 2rem;
+}
+
+.navbar-container .logo p{
+   height: max-content;
+   align-self: center;
+}
+
+.navbar-container .logo img{
+    margin-top: 5%;
+}
+
+
+.nav-links{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+/* First page*/
+
+.firstpage{
+    height:53.8rem;
+    width: 100%;
+    background-image: url('images/pexels-neo-2653362.jpg');
+    background-size: cover;
+    color: #f9faf8;
+    text-align: center;
+}
+
+h1{
+    font-size: 5rem;
+    position: relative;
+    top: 20%;
+}
+
+.firstpage p{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    top:25%;
+    line-height: 3rem;
+
+}
+
+.firstpage a{
+    color: #f9faf8;
+    text-decoration: none;
+   background: #3882f6;
+   padding: 1rem 2rem;  
+   border-radius: 0.5rem;
+   font-size: 1rem;
+   font-weight: bold;
+   position: relative;
+   top: 40%;
+}
+
+/* Overiew page */
+
+.o-container{
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content: space-around;
+
+}
+
+.o-container > *{
+    flex:1 1 0px;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.js img{
+    position: relative;
+    bottom: 0.5rem;
+}
+
+.practice img{
+    position: relative;
+    bottom: 1.5rem;
+}
+
+.ruby p{
+    position: relative;
+    top: 0.5rem;
+}
+
+.practice p{
+    position: relative;
+    bottom: 1.5rem;
+}
+
+.foundations p{
+    position: relative;
+    top: 0.5rem;
+}
+
+/* Quete sections*/
+
+.quote{
+    padding: 3rem;
+    background-color: #e5e7eb;
+    text-align: center;
+}
+
+.quote p{
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quote h3{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1f2937;
+    width: max-content;
+    position: relative;
+    left: 70%;
+}
+
+/* Call to action*/
+
+.cta{
+    margin: 5rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 1rem;
+}
+
+.cta-text{
+    position: relative;
+    left: 6rem;
+}
+
+.cta h3{
+    color: #f9faf8;
+    font-size: 2rem;
+    left: 6rem;
+}
+
+.cta p{
+    color: #f9faf8;
+    
+}
+
+.cta a{
+    color: #f9faf8;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 2rem 1rem 2rem;
+    border:1px solid #f9faf8;
+    border-radius: 1rem;
+    position: relative;
+    right: 6rem;
+}
+
+/* Footer*/
+
+footer{
+    padding: 3rem;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 1rem;
+    font-weight: lighter;
+    text-align: center;
+}
